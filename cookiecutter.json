@@ -1,0 +1,6 @@
+{
+  "project_name": "Some Streamlit dashboard",
+  "description": "Your dashboard short description",
+  "project_repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') + '-ds' }}",
+  "project_package": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+}
